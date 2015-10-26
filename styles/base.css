@@ -1,0 +1,52 @@
+html {
+	background-color: teal;
+}
+
+.button {
+	background-color: blue;	
+	color: white;
+	border: 2px solid red;
+	width: 200px;
+	font-size: 30px;
+	font-family: fantasy;
+	border-radius: 50px;
+	outline-style: none;
+	text-decoration: none;
+	margin: 5px auto;
+	display: inline-block;
+}
+
+.center {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	color: orange;
+	display: block;
+	text-align: center;
+}
+
+a {
+	display: block;
+	margin: auto;
+	text-decoration: none;
+	
+}
+
+#banner {
+	background: url("../images/banner.png");
+	height: 150px;
+	margin-bottom: 20px;
+	background-size: 100% 100%;
+
+}
+
+#nav {
+	width: 250px;
+	position: absolute;
+	background-color: cornflowerblue;
+	border-style: solid;
+	text-align: center;
+}

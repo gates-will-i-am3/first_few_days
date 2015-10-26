@@ -1,0 +1,29 @@
+img {
+	border-style: solid;
+	border-width: 5px;
+	position: absolute;
+}
+
+img:first-child {
+	border-color: red;
+	top: 0;
+	left: 0;
+}
+
+img:nth-child(2) {
+	border-color: green;
+	top: 0;
+	right: 0;
+}
+
+img:nth-child(3) {
+	border-color: black;
+	bottom: 0;
+	left: 0;
+}
+
+img:nth-child(4) {
+	border-color: blue;
+	bottom: 0;
+	right: 0;
+}
